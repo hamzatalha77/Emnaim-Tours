@@ -77,11 +77,11 @@ if($_POST){
                     <i class="fas fa-bars"></i>
                     <i class="fas fa-times"></i>
                 </div>
-                <a href="Enaime.php" class="logo"><img class="img-logo" src="photos/Groupe 60.png" alt="" />
+                <a href="index.php" class="logo"><img class="img-logo" src="photos/Groupe 60.png" alt="" />
                 </a>
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="Enaime.php" class="nav-link active">Home</a>
+                        <a href="index.php" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -236,25 +236,28 @@ if($_POST){
                         </div>
                     </div>
                     <div>
-                        <form action='' method="POST">
+                        <form method="POST">
                             <label class="labels" for="fname">Nom</label>
-                            <input type="text" id="fname" name="nom" placeholder="Votre Nom.." />
+                            <input type="text" id="fname" name="nom" required placeholder="Votre Nom.." />
                             <label for="lname">Prénom </label>
-                            <input name="prenom" type="text" id="lname" placeholder="Votre Prénom.." />
+                            <input name="prenom" type="text" id="lname" required placeholder="Votre Prénom.." />
                             <label for="lname">Numéro de telephone</label>
-                            <input type="number" id="lname" name="tele" placeholder="Votre Numéro de telephone.." />
+                            <input type="number" id="lname" name="tele" required
+                                placeholder="Votre Numéro de telephone.." />
                             <label for="lname">Description du bagage</label>
-                            <input type="text" id="lname" name="desbag" placeholder="" />
+                            <input type="text" id="lname" name="desbag" required placeholder="" />
                             <label for="lname">Départure</label>
-                            <input type="text" id="lname" name="depar" placeholder="Votre de Départure" />
+                            <input type="text" id="lname" name="depar" required placeholder="Votre de Départure" />
                             <label for="lname">Déstination</label>
-                            <input type="text" id="lname" name="dest" placeholder="Votre Déstination.." />
+                            <input type="text" id="lname" name="dest" required placeholder="Votre Déstination.." />
                             <label for="lname">Nom du déstinataire</label>
-                            <input type="text" id="lname" name="nomdest" placeholder="Votre Nom du déstinataire.." />
+                            <input type="text" id="lname" name="nomdest" required
+                                placeholder="Votre Nom du déstinataire.." />
                             <label for="lname">Prénom du déstinataire</label>
-                            <input type="text" id="lname" name="predest" placeholder="Votre Prénom du déstinataire.." />
+                            <input type="text" id="lname" name="predest" required
+                                placeholder="Votre Prénom du déstinataire.." />
                             <label for="lname">Numéro de telephone du déstinataire</label>
-                            <input type="number" id="lname" name="teledest"
+                            <input type="number" id="lname" name="teledest" required
                                 placeholder="Le Numéro de telephone du déstinataire.." />
                             <input type="submit" name="insert" class="btn body-btn" value="Make a reservation">
                         </form>
