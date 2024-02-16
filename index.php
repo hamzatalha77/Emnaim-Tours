@@ -87,10 +87,10 @@ if($_POST){
                         <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Conatct</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Serveces" class="nav-link">Services</a>
+                        <a href="#Services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#reserv" class="nav-link">Reservation</a>
@@ -137,7 +137,7 @@ if($_POST){
                     </div>
                     <p>
                         EMNAIM tours travel agency, is one of the strongest companies
-                        of it's kind, it provides many services for their clients <a href="#Serveces"
+                        of it's kind, it provides many services for their clients <a href="#Services"
                             class="linka">(Services)</a> EMNAIM tours is located at
                         .<a href="#location" class="linka">(Location).</a>
                         Satisfied employees lead to satisfied customers.
@@ -205,14 +205,14 @@ if($_POST){
         </div>
     </section>
     <section class="card" data-aos="fade-left">
-        <div id="Serveces" class="animate-top">
+        <div id="Services" class="animate-top">
             <h2 class="sub-headline">
                 <span class="first-letter">S</span>ervices
             </h2>
         </div>
         <div class="animate-bottom">
             <h1 class="headline headline-dark">
-                Luggage transportation to the following contries
+                Luggage transportation to the following countries
             </h1>
         </div>
 
@@ -304,8 +304,9 @@ if($_POST){
                     <div class="newletter-container">
 
                         <p class=" linkp">Copyright &copy; 2021 - All Rights Reserved - <a class="linkw"
-                                href="#">emnaim.tours</a></p>
-                        <p class="fl_right">Devlopped by <a class="linkw" href="https://www.os-templates.com/">Hamza
+                                href="https://enaime.infinityfreeapp.com">emnaim.tours</a></p>
+                        <p class="fl_right">Developed by <a class="linkw"
+                                href="https://www.linkedin.com/in/hamza-talha/">Hamza
                                 Talha</a>
                         </p>
                         <p class="fl_right">Designed by <a class="linkw" href="https://www.os-templates.com/">Imrane
